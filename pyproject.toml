@@ -21,6 +21,7 @@ dependencies = [
     "python-memcached",
     "ieeemac",
     "IPy",
+    "importlib-metadata>=3.6.0; python_version < '3.10'",
 ]
 requires-python = ">=2.7"
 

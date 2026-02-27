@@ -11,6 +11,7 @@ setup(name='ninfo',
         "python-memcached",
         "ieeemac",
         "IPy",
+        "importlib-metadata>=3.6.0; python_version < '3.10'",
     ],
     extras_require = {
         'Splunk' : ['splunk-sdk'],
