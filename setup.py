@@ -13,7 +13,7 @@ setup(name='ninfo',
         "IPy",
     ],
     extras_require = {
-        'Splunk' : ['splunk-sdk'],
+        'Splunk' : ['splunk-sdk>=1.6.19'],
     },
     entry_points = {
         'console_scripts': [
