@@ -14,7 +14,7 @@ setup(name='ninfo',
         "importlib-metadata>=3.6.0; python_version < '3.10'",
     ],
     extras_require = {
-        'Splunk' : ['splunk-sdk'],
+        'Splunk' : ['splunk-sdk>=1.6.19'],
     },
     entry_points = {
         'console_scripts': [
